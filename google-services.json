@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "562618716706",
+    "project_id": "resolveandroid-a7976",
+    "storage_bucket": "resolveandroid-a7976.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562618716706:android:31d1f9fc4a38399588307b",
+        "android_client_info": {
+          "package_name": "edu.vassar.cmpu203.resolveandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562618716706-3s07j30k1im7pu26dk2r2pej8iqhjvg9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHTqn1vlDRiyXbNuRx7xT7IWDenMm3dyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562618716706-3s07j30k1im7pu26dk2r2pej8iqhjvg9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

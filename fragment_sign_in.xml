@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/signInLabel"
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="212dp"
+        android:background="#006200EE"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center"
+        android:text="@string/signInLabel"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="277dp"
+        android:layout_height="429dp"
+        android:layout_marginTop="22dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signInLabel">
+
+        <EditText
+            android:id="@+id/usernameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/round_border"
+            android:backgroundTint="#22056F8F"
+            android:drawableRight="@drawable/ic_account_circle_black_24dp"
+            android:ems="10"
+            android:fontFamily="@font/montserrat"
+            android:hint="Enter Username"
+            android:inputType="textPersonName"
+            android:padding="16dp"
+            android:textColorHint="#8F8F8F" />
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/round_border"
+            android:backgroundTint="#2A056F8F"
+            android:drawableRight="@drawable/ic_lock_black_24dp"
+            android:ems="10"
+            android:fontFamily="@font/montserrat"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:padding="16dp"
+            android:textColorHint="#8F8F8F" />
+
+        <Button
+            android:id="@+id/signInButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/signInButton" />
+
+        <Button
+            android:id="@+id/signUpPageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#03F4F0F0"
+            android:text="@string/signUpPageButton"
+            android:textColor="#020202"
+            android:translationX="40dp"
+            android:translationY="150dp" />
+
+        <TextView
+            android:id="@+id/failMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/failureMessage" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
