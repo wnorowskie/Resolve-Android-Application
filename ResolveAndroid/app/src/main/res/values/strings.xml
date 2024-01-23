@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">ResolveAndroid</string>
+    <string name="sign_up_label">Create Account</string>
+    <string name="username_label">Enter username:</string>
+    <string name="password_label">Enter password:</string>
+    <string name="signUpButton">Sign Up</string>
+    <string name="titleLabel">RESOLVE</string>
+    <string name="signInPageButton">Returning user? Sign In</string>
+    <string name="signInLabel">Welcome Back! Login</string>
+    <string name="signInButton">Sign In</string>
+    <string name="signUpPageButton">New User? Sign Up</string>
+
+
+    <string name="eventLabel">Add A New Event</string>
+    <string name="eventInfoLabel">Fill Out Event Info Below:</string>
+    <string name="eventDayLabel">Select Day(s) Event Is On</string>
+    <string name="sundayEvent">Sun</string>
+    <string name="mondayEvent">Mon</string>
+    <string name="tuesdayEvent">Tues</string>
+    <string name="wednesdayEvent">Wed</string>
+    <string name="thursdayEvent">Thurs</string>
+    <string name="fridayEvent">Fri</string>
+    <string name="saturdayEvent">Sat</string>
+    <string name="eventTimeLabel">Enter Event Details:</string>
+    <string name="eventStartTimeLabel">Start Time</string>
+    <string name="eventEndTimeLabel">End Time</string>
+    <string name="eventNameLabel">Event Name</string>
+    <string name="addEventButton">Add Event</string>
+    <string name="startTimeButton">From:</string>
+    <string name="endTimeButton">To:</string>
+    <string name="pendingRequestsTitle">Pending Requests</string>
+    <string name="acceptRequestButton">Accept</string>
+    <string name="denyRequestButton">Deny</string>
+    <string name="defaultName">John Snow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="usernameProfile"></string>
+    <string name="bioText"></string>
+    <string name="friendsButton">friends</string>
+    <string name="groupsButton">groups</string>
+    <string name="orgsButton">organizations</string>
+    <string name="scheduleButton">schedule</string>
+    <string name="friendListTitle">Your Friends</string>
+    <string name="yourGroups">Your Groups</string>
+    <string name="viewPendingButton">View Pending</string>
+    <string name="backButton">Back</string>
+    <string name="groupName"></string>
+    <string name="findFriendButton">Add Friend</string>
+    <string name="groupViewBackButton">Back</string>
+    <string name="yourOrgs">Your Organizations</string>
+    <string name="sendRequestButton">Send Request</string>
+
+    <string name="mondayDayLabel">Monday</string>
+    <string name="tuesdayDayLabel">Tuesday</string>
+    <string name="wednesdayDayLabel">Wednesday</string>
+    <string name="thursdayDayLabel">Thursday</string>
+    <string name="fridayDayLabel">Friday</string>
+    <string name="saturdayDayLabel">Saturday</string>
+    <string name="sundayDayLabel">Sunday</string>
+
+    <string name="prevDay">Prev</string>
+    <string name="nextDay">Next</string>
+
+    <string name="hint">hint</string>
+    <string name="failureMessage">fail</string>
+</resources>
